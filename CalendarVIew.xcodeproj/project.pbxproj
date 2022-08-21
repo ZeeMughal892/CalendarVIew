@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E159A4CC28A24A8600F694D5 /* CalendarVIewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E159A4CB28A24A8600F694D5 /* CalendarVIewApp.swift */; };
-		E159A4CE28A24A8600F694D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E159A4CD28A24A8600F694D5 /* ContentView.swift */; };
+		E159A4CC28A24A8600F694D5 /* CalendarViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E159A4CB28A24A8600F694D5 /* CalendarViewApp.swift */; };
+		E159A4CE28A24A8600F694D5 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E159A4CD28A24A8600F694D5 /* CalendarView.swift */; };
 		E159A4D028A24A8700F694D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E159A4CF28A24A8700F694D5 /* Assets.xcassets */; };
 		E159A4D328A24A8700F694D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E159A4D228A24A8700F694D5 /* Preview Assets.xcassets */; };
+		E1910B8228A3B8B4003B5F44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1910B8128A3B8B4003B5F44 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E159A4C828A24A8600F694D5 /* CalendarVIew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarVIew.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E159A4CB28A24A8600F694D5 /* CalendarVIewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVIewApp.swift; sourceTree = "<group>"; };
-		E159A4CD28A24A8600F694D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E159A4CB28A24A8600F694D5 /* CalendarViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewApp.swift; sourceTree = "<group>"; };
+		E159A4CD28A24A8600F694D5 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		E159A4CF28A24A8700F694D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E159A4D228A24A8700F694D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1910B8128A3B8B4003B5F44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		E159A4CA28A24A8600F694D5 /* CalendarVIew */ = {
 			isa = PBXGroup;
 			children = (
-				E159A4CB28A24A8600F694D5 /* CalendarVIewApp.swift */,
-				E159A4CD28A24A8600F694D5 /* ContentView.swift */,
+				E159A4CB28A24A8600F694D5 /* CalendarViewApp.swift */,
+				E159A4CD28A24A8600F694D5 /* CalendarView.swift */,
+				E1910B8128A3B8B4003B5F44 /* ContentView.swift */,
 				E159A4CF28A24A8700F694D5 /* Assets.xcassets */,
 				E159A4D128A24A8700F694D5 /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E159A4CE28A24A8600F694D5 /* ContentView.swift in Sources */,
-				E159A4CC28A24A8600F694D5 /* CalendarVIewApp.swift in Sources */,
+				E159A4CE28A24A8600F694D5 /* CalendarView.swift in Sources */,
+				E159A4CC28A24A8600F694D5 /* CalendarViewApp.swift in Sources */,
+				E1910B8228A3B8B4003B5F44 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +199,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -275,6 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
